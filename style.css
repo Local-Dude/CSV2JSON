@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(270deg, #c468ff, #fa68ff, #e9ff68, #6884ff);
+    background-size: 800% 800%;
+    animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 10px 15px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.result {
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+}
