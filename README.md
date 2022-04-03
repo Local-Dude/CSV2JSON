@@ -1,5 +1,5 @@
 # CSV2JSON
-In the JSON2CSV application you translated JSON to a '--' separated value (CSV) format. The objective of CSV2JSON is to reverse that process by converting a block of CSV text to JSON.
+In the JSON2CSV application you translated JSON to a '--' separated value (CSV) format. The objective of CSV2JSON is to reverse that process by converting a block of CSV text to JSON.  
 EXAMPLE:  
 id--name--amount--Remark  
 1--"Johnson, Smith, and Jones Co."--345.33--Pays on time  
